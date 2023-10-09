@@ -26,12 +26,13 @@ function userResults() {
     }
     return result;
 }
-/*
-  Fonction de vérification des résultat utilisateur avec le tableau de réponse
-*/
+
 let message = document.querySelector(".message");
 let score = document.querySelector(".score");
 let advise = document.querySelector(".advise");
+/*
+  Fonction de vérification des résultat utilisateur avec le tableau de réponse
+*/
 function verification(result){
     let goodResponse = 0
     for (let i = 0; i < responsesTab.length; i++) {
